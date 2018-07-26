@@ -1,0 +1,120 @@
+body{
+	font-family: "Slabo 27px", serif;
+    height: calc(100vh);
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3185f9+0,1c2e92+100 */
+	background: rgb(49,133,249); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(49,133,249,1) 0%, rgba(28,46,146,1) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(49,133,249,1) 0%,rgba(28,46,146,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, rgba(49,133,249,1) 0%,rgba(28,46,146,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3185f9', endColorstr='#1c2e92',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.mainContainer{
+	position: relative;
+	height: 100%;
+}
+
+.flexiContainer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	position: relative;
+	z-index: 100;
+}
+
+.logo{
+	width: 500px;
+}
+section{
+	text-align: center;
+}
+section.main{
+	text-align: center;
+}
+section.main img{
+	display: block;
+	margin: 0 auto;
+}
+
+section.main img.burger{
+	width: 500px;
+	margin: 60px auto;
+}
+
+section h1{
+	font-size: 3em;
+	margin-top: 30px;
+	color: #fff;
+}
+section h2{
+	color: #fff;
+	opacity: 0.9;
+}
+section p{
+	color: #fff;
+	opacity: 0.6;
+	margin-top: 40px;
+}
+section a{
+	color: #fff;
+	text-decoration: underline;
+}
+section a:hover{
+	color: yellow;
+	text-decoration: underline;
+}
+
+figure{
+	position: absolute;
+	z-index: 1;
+	margin: 0;
+}
+
+figure.burger-stuff{
+	top: 0;
+	left: 0;
+	width: calc(100vw);
+	height: calc(100vh);
+	overflow: hidden;
+	position: absolute;
+}
+
+img.lettuce{
+	position: absolute;
+	left: -50px;
+	bottom: -50px;
+	width: 500px;
+}
+
+img.tomato{
+	position: absolute;
+	left: -50px;
+	top: -50px;
+	width: 600px;
+}
+
+img.onion{
+	position: absolute;
+	right: -50px;
+	bottom: -50px;
+	width: 200px;
+}
+
+img.cheese{
+	position: absolute;
+	right: -50px;
+	top: -50px;
+	width: 400px;
+	transform: rotate(15deg);
+}
+
+
+@media (max-width: 650px){
+	.logo{
+		width: 300px;
+	}
+	figure.burger-stuff img{
+		filter: blur(5px);
+	}
+}
