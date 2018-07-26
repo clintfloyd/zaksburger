@@ -140,4 +140,36 @@ img.cheese{
 	    top: 170px;
 	    width: 600px;
 	}
+
+	.flexiContainer{
+		display: block;
+	}
+	figure.burger-stuff {
+	    top: 0;
+	    left: 0;
+	    width: calc(100vw);
+	    height: calc(120vh);
+	    overflow: hidden;
+	    position: absolute;
+	}
+	section.main {
+	    text-align: center;
+	    padding-top: 40px;
+	}
+}
+
+@media (max-height: 768px){
+	.flexiContainer{
+		display: block;
+		padding-top: 50px;
+	}
+	
+	figure.burger-stuff {
+	    top: 0;
+	    left: 0;
+	    width: calc(100vw);
+	    height: calc(120vh);
+	    overflow: hidden;
+	    position: absolute;
+	}
 }
