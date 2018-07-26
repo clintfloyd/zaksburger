@@ -159,7 +159,7 @@ img.cheese{
 	}
 }
 
-@media (max-height: 768px){
+@media (max-height: 950px){
 	.flexiContainer{
 		display: block;
 		padding-top: 50px;
