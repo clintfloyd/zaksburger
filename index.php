@@ -17,7 +17,7 @@
 					<img src="burger.png" class="burger" />
 					<h1>Your Masterpiece Burger</h1>
 					<h2>Opening on 2036!</h2>
-					<p>You're probably here because of Sapaad.Online.<br />If you want to go back, <a href="https://www.sapaad.com/sapaad.online/?ref=zaksburger" target="_blank">click here</a> or if you want to know about us, <a href="http://zaksadventure.com/?ref=zaksburger" target="_blank">click here</a>.</p>
+					<p>You're probably here because of <a href="https://www.sapaad.com/sapaad.online/?ref=zaksburger" target="_blank">Sapaad.Online</a>.<br />If you want to know about Zak, <a href="http://zaksadventure.com/?ref=zaksburger" target="_blank">click here</a>.</p>
 				</section>
 			</div>
 
