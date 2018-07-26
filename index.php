@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Zaks Burger - Your masterpiece burger!</title>
+		<title>Zaks Burger - The Home of Chargrilled Patties!</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 
@@ -14,8 +14,8 @@
 			<div class="container flexiContainer">
 				<section class="main">
 					<img src="logo.svg" class="logo" />
-					<img src="burger.png" class="burger" />
 					<h1>The Home of Chargrilled Patties.</h1>
+					<img src="burger.png" class="burger" />
 					<h2>Grilling on 2036!</h2>
 					<p>You're probably here because of <a href="https://www.sapaad.com/sapaad.online/?ref=zaksburger" target="_blank">Sapaad.Online</a>.<br />If you want to know about Zak, <a href="http://zaksadventure.com/?ref=zaksburger" target="_blank">click here</a>.</p>
 				</section>

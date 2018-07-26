@@ -31,6 +31,7 @@ section{
 }
 section.main{
 	text-align: center;
+	padding-bottom: 50px;
 }
 section.main img{
 	display: block;
@@ -162,14 +163,19 @@ img.cheese{
 	.flexiContainer{
 		display: block;
 		padding-top: 50px;
+		height: auto;
 	}
-	
+
 	figure.burger-stuff {
 	    top: 0;
 	    left: 0;
 	    width: calc(100vw);
-	    height: calc(120vh);
+	    height: 100%;
 	    overflow: hidden;
 	    position: absolute;
+	}
+	.mainContainer {
+	    position: relative;
+	    height: auto;
 	}
 }
