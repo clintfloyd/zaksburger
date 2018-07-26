@@ -99,7 +99,7 @@ img.onion{
 	position: absolute;
 	right: -50px;
 	bottom: -50px;
-	width: 200px;
+	width: 280px;
 }
 
 img.cheese{
@@ -108,6 +108,13 @@ img.cheese{
 	top: -50px;
 	width: 400px;
 	transform: rotate(15deg);
+}
+img.fries{
+	position: absolute;
+	right: 170px;
+	bottom: -30px;
+	width: 340px;
+	transform: rotate(45deg);
 }
 
 
@@ -140,6 +147,13 @@ img.cheese{
 	    left: -50px;
 	    top: 170px;
 	    width: 600px;
+	}
+	img.fries {
+	    position: absolute;
+	    left: -50px;
+	    bottom: 100px;
+	    width: 400px;
+	    z-index: 1;
 	}
 
 	.flexiContainer{
